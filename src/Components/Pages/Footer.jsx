@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
 
             {/* Main Content */}
-            <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-8 my-14">
+            <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-8 mt-14 mb-10">
 
                 {/* Left Side */}
                 <div>
@@ -40,8 +40,7 @@ const Footer = () => {
                     </h1>
                 </div>
 
-                {/* Right Side */}
-                <p className="max-w-md text-xs sm:text-sm normal-case text-gray-300 leading-7">
+                <p className="w-full md:max-w-md text-xs sm:text-sm normal-case text-center text-gray-300 leading-7 md:text-justify md:text-left break-words md:break-normal">
                     I'm always open to discussing new projects,
                     creative ideas or opportunities to be part
                     of your vision.
@@ -61,7 +60,7 @@ const Footer = () => {
                     Privacy Policy | Terms & Conditions
                 </p>
             </div>
-        </footer>
+        </footer >
     );
 };
 
