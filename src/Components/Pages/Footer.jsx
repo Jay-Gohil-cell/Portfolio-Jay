@@ -40,7 +40,7 @@ const Footer = () => {
                     </h1>
                 </div>
 
-                <p className="w-full md:max-w-md text-xs sm:text-sm normal-case text-center text-gray-300 leading-7 md:text-justify md:text-left break-words md:break-normal">
+                <p className="w-full md:max-w-md text-xs sm:text-sm normal-case text-center text-gray-300 leading-7 md:text-justify wrap-break-word md:break-normal">
                     I'm always open to discussing new projects,
                     creative ideas or opportunities to be part
                     of your vision.
