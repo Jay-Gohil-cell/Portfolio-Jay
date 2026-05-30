@@ -1,5 +1,6 @@
-import c from "../assets/SkillIcons/c.svg"
-import cPlus from "../assets/SkillIcons/c-plus-plus.svg"
+import axios from "../assets/SkillIcons/axios.svg"
+import restApi from "../assets/SkillIcons/api.svg"
+import respon from "../assets/SkillIcons/responsive.svg"
 import css from "../assets/SkillIcons/css3.svg"
 import html from "../assets/SkillIcons/html5.svg"
 import js from "../assets/SkillIcons/javascript.svg"
@@ -30,8 +31,9 @@ const Skills = () => {
                         <Skillicon which={`${jquery}`} name="JQuery"/>
                         <Skillicon which={`${react}`} name="ReactJS"/>
                         <Skillicon which={`${tailwind}`} name="TailWind"/>
-                        <Skillicon which={`${c}`} name="C"/>
-                        <Skillicon which={`${cPlus}`} name="C++"/>
+                        <Skillicon which={`${restApi}`} name="RESt APIs"/>
+                        <Skillicon which={`${axios}`} name="axios"/>
+                        <Skillicon which={`${respon}`} name="responsive"/>
                         <Skillicon which={`${vscode}`} name="VS Code"/>
                         <Skillicon which={`${git}`} name="Git"/>
                         <Skillicon which={`${github}`} name="GitHub"/>
