@@ -31,7 +31,7 @@ const Skills = () => {
                         <Skillicon which={`${jquery}`} name="JQuery"/>
                         <Skillicon which={`${react}`} name="ReactJS"/>
                         <Skillicon which={`${tailwind}`} name="TailWind"/>
-                        <Skillicon which={`${restApi}`} name="RESt APIs"/>
+                        <Skillicon which={`${restApi}`} name="REST APIs"/>
                         <Skillicon which={`${axios}`} name="axios"/>
                         <Skillicon which={`${respon}`} name="responsive"/>
                         <Skillicon which={`${vscode}`} name="VS Code"/>
