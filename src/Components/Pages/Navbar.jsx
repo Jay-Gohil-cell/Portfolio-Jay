@@ -23,12 +23,12 @@ const Navbar = () => {
             <div className={`flex px-10 lg:px-20 xl:px-25 bg-transparent justify-between items-center h-17`}>
                 <span className='text-4xl w-auto font-bold'>Jay Gohil</span>
                 <ul className='hidden md:flex md:gap-5 lg:gap-10 text-gray-300 text-md'>
-                    <a href="#Home"><li className='hover:text-white duration-300'>Home</li></a>
-                    <a href="#About"><li className='hover:text-white duration-300'>About</li></a>
-                    <a href="#Education"><li className='hover:text-white duration-300'>Education</li></a>
-                    <a href="#skills"><li className='hover:text-white duration-300'>Skills</li></a>
-                    <a href="#Project"><li className='hover:text-white duration-300'>Project</li></a>
-                    <a href="#Contact"><li className='hover:text-white duration-300'>Contact</li></a>
+                    <a href="#Home"><li className='hover:text-white hover:-translate-y-1 duration-300'>Home</li></a>
+                    <a href="#About"><li className='hover:text-white hover:-translate-y-1 duration-300'>About</li></a>
+                    <a href="#Education"><li className='hover:text-white hover:-translate-y-1 duration-300'>Education</li></a>
+                    <a href="#skills"><li className='hover:text-white hover:-translate-y-1 duration-300'>Skills</li></a>
+                    <a href="#Project"><li className='hover:text-white hover:-translate-y-1 duration-300'>Project</li></a>
+                    <a href="#Contact"><li className='hover:text-white hover:-translate-y-1 duration-300'>Contact</li></a>
                 </ul>
                 <a href="https://jay-gohil-cell.github.io/resume/" target='_blank'><button className='hidden lg:flex justify-center items-center bg-white text-black w-34 text-md h-10 rounded-sm hover:scale-x-105 transition-all duration-300'>Resume</button></a>
 
