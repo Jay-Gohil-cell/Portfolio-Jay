@@ -54,7 +54,7 @@ const Projects = () => {
                     {projectList.map((project) => (
                         <div
                             key={project.id}
-                            className="flex flex-col justify-between bg-white text-black border border-gray-300 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl"
+                            className="flex flex-col shadow-gray-700 shadow-2xl justify-between bg-white text-black border px-8 py-5 border-gray-300 overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl"
                         >
                             {/* Image Container */}
                             <div className="w-full h-48 md:h-52 overflow-hidden bg-gray-100 flex items-center justify-center border-b border-gray-200">
@@ -67,7 +67,7 @@ const Projects = () => {
                                     <img
                                         src={project.img}
                                         alt={project.alt}
-                                        className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                                        className="w-full h-full object-cover shadow-2xl shadow-black transition-transform duration-500 hover:scale-105"
                                     />
                                 )}
                             </div>
