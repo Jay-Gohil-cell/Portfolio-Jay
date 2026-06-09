@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import resumePdf from "../assets/Resume.pdf"
 
 const Navbar = () => {
     const [isOpen, setMenu] = useState(false);
@@ -30,7 +31,12 @@ const Navbar = () => {
                     <a href="#Project"><li className='hover:text-white hover:-translate-y-1 duration-300'>Project</li></a>
                     <a href="#Contact"><li className='hover:text-white hover:-translate-y-1 duration-300'>Contact</li></a>
                 </ul>
-                <a href="" target='_blank'><button className='hidden lg:flex justify-center items-center bg-white text-black w-34 text-md h-10 rounded-sm hover:scale-x-105 transition-all duration-300'>Resume</button></a>
+                <a
+                    href={resumePdf}
+                    download="Jay_Gohil_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                ><button className='hidden lg:flex justify-center items-center bg-white text-black w-34 text-md h-10 rounded-sm hover:scale-x-105 transition-all duration-300'>Resume</button></a>
 
                 <div className='flex md:hidden relative'>
                     <button className='text-black' onClick={() => setMenu(!isOpen)}>
