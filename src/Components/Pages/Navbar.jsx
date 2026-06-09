@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import resumePdf from "/Resume.pdf"
+import resumePdf from "/Jay_Gohil_Resume.pdf"
 
 const Navbar = () => {
     const [isOpen, setMenu] = useState(false);
