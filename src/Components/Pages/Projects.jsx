@@ -36,7 +36,7 @@ const Projects = () => {
     ];
 
     return (
-        <section id="Project" className="scroll-mt-20 w-full py-16 px-6 md:px-12 lg:px-24 bg-[gray] text-white">
+        <section id="Project" className="md:-scroll-mt-35 w-full py-16 px-6 md:px-12 lg:px-24 bg-[gray] text-white">
             <div className="max-w-7xl mx-auto">
 
                 {/* Section Header */}
@@ -54,7 +54,7 @@ const Projects = () => {
                     {projectList.map((project) => (
                         <div
                             key={project.id}
-                            className="flex flex-col shadow-gray-700 shadow-2xl justify-between bg-white text-black border px-8 py-5 border-gray-300 overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl"
+                            className="flex flex-col grayscale hover:grayscale-0 shadow-gray-700 shadow-2xl justify-between bg-white text-black border px-8 py-5 border-gray-300 overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl"
                         >
                             {/* Image Container */}
                             <div className="w-full h-48 md:h-52 overflow-hidden bg-gray-100 flex items-center justify-center border-b border-gray-200">
@@ -101,20 +101,20 @@ const Projects = () => {
                                 {/* Buttons Area */}
                                 <div className="mt-2">
                                     {project.isUpcoming ? (
-                                        <div className="w-full bg-gray-100 border border-gray-300 text-center text-gray-500 text-xs py-2.5 rounded-lg font-bold italic">
+                                        <div className="w-full bg-gray-100 border border-gray-300 text-center text-gray-500 text-xs py-2.5 font-bold italic">
                                             Work in progress... 🛠️
                                         </div>
                                     ) : (
                                         <div className="grid grid-cols-2 gap-4">
                                             <a
                                                 href={project.liveLink}
-                                                className="inline-flex justify-center items-center bg-black hover:bg-gray-800 text-white font-bold py-2.5 px-4 rounded-lg text-sm transition-colors text-center shadow-sm"
+                                                className="inline-flex justify-center items-center bg-black hover:bg-gray-800 text-white font-bold py-2.5 px-4  text-sm transition-colors text-center shadow-sm"
                                             target="_blank">
                                                 View Project
                                             </a>
                                             <a
                                                 href={project.codeLink}
-                                                className="inline-flex justify-center items-center bg-white hover:bg-gray-100 text-black font-bold py-2.5 px-4 rounded-lg text-sm transition-colors text-center border border-black"
+                                                className="inline-flex justify-center items-center bg-white hover:bg-gray-100 text-black font-bold py-2.5 px-4  text-sm transition-colors text-center border border-black"
                                             target="_blank">
                                                 View Code
                                             </a>

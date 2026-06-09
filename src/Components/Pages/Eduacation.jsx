@@ -3,7 +3,7 @@ import eduImage from "../assets/education.png"
 
 const Eduacation = () => {
     return (
-        <section id="Education" className="-mt-px pb-10 pt-5 scroll-mt-35 md:scroll-mt-15 w-screen lg:px-35 lg:pb-20 px-10 md:px-20  bg-[gray] text-white">
+        <section id="Education" className="-mt-px pb-10 pt-5 scroll-mt-35 md:scroll-mt-18 w-screen lg:px-35 lg:pb-20 px-10 md:px-20  bg-[gray] text-white">
             <p className="md:text-5xl text-4xl font-bold text-center text-black md:pr-5 underline underline-offset-15 decoration-2 mb-10 ">Education</p>
             <p className="md:text-xl text-sm text-center mb-12 lg:px-40">Building a strong foundation through formal education, where I turned theoretical concepts into practical problem-solving skills.</p>
             <div className="flex justify-center gap-30">    

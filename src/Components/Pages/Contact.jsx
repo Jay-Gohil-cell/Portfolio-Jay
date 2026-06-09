@@ -11,7 +11,7 @@ import Socialmedia from "../Other-pageComponent/Socialmedia"
 
 const Contact = () => {
     return (
-        <section id="Contact" className="-mt-px pb-10 pt-5 scroll-mt-35 md:scroll-mt-15 w-screen lg:px-35 lg:pb-20 px-10 md:px-20">
+        <section id="Contact" className="-mt-px pb-10 pt-5 scroll-mt-35 md:-scroll-mt-18 w-screen lg:px-35 lg:pb-20 px-10 md:px-20">
             <p className="md:text-5xl text-4xl font-bold text-center text-black md:pr-5 underline underline-offset-15 decoration-2 mb-10 ">Contact</p>
             <p className="md:text-xl text-lg text-center mb-10">I'm always open to discussing new opportunities, interesting projects, or just having a chat about tech and designs.</p>
             <div className="flex gap-10 lg:gap-20 flex-col lg:flex-row">

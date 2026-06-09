@@ -30,7 +30,7 @@ const Navbar = () => {
                     <a href="#Project"><li className='hover:text-white hover:-translate-y-1 duration-300'>Project</li></a>
                     <a href="#Contact"><li className='hover:text-white hover:-translate-y-1 duration-300'>Contact</li></a>
                 </ul>
-                <a href="https://jay-gohil-cell.github.io/resume/" target='_blank'><button className='hidden lg:flex justify-center items-center bg-white text-black w-34 text-md h-10 rounded-sm hover:scale-x-105 transition-all duration-300'>Resume</button></a>
+                <a href="" target='_blank'><button className='hidden lg:flex justify-center items-center bg-white text-black w-34 text-md h-10 rounded-sm hover:scale-x-105 transition-all duration-300'>Resume</button></a>
 
                 <div className='flex md:hidden relative'>
                     <button className='text-black' onClick={() => setMenu(!isOpen)}>

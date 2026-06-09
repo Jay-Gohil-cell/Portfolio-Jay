@@ -16,7 +16,7 @@ import Strength from "../Other-pageComponent/Strength"
 
 const Skills = () => {
     return (
-        <section id="skills" className="-mt-px pb-10 pt-5 scroll-mt-35 md:scroll-mt-45 w-full lg:px-35 lg:pb-20 px-10 md:px-20">
+        <section id="skills" className="-mt-px pb-10 pt-5 scroll-mt-35 md:-scroll-mt-5 w-full lg:px-35 lg:pb-20 px-10 md:px-20">
             <p className="md:text-5xl text-4xl font-bold text-center upper text-black pr underline underline-offset-15 decoration-2 mb-10 ">Skills</p>
             <p className="md:text-xl text-lg text-center mb-10">The tools, languages, and frameworks I use to build the digital world.</p>
 
